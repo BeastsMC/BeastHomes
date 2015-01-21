@@ -1,0 +1,24 @@
+name: BeastHomes
+main: com.beastsmc.KablooieKablam.BeastHomes.BeastHomes
+version: 0.1
+commands:
+   home:
+      description: Goes home. Goes to a named home if given an argument.
+      usage: /home <name>
+      permission: beasthomes.home
+      permission-message: You don't have permission to do that.
+   sethome:
+      description: Sets home. Sets a named home if given an argument.
+      usage: /sethome <name>
+      permission: beasthomes.set
+      permission-message: You don't have permission to do that.
+   deletehome:
+      description: Deletes named home. Needs an argument.
+      usage: /sethome [name]
+      permission: beasthomes.delete
+      permission-message: You don't have permission to do that.
+   listhomes:
+      description: Lists all set homes.
+      usage: /listhomes
+      permission: beasthomes.list
+      permission-message: You don't have permission to do that.

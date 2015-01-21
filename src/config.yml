@@ -1,0 +1,11 @@
+supporter: 2
+sponsor: 2
+patron: 3
+hero: 4
+adventurer: 5
+mysql:
+  database: homes
+  host: localhost
+  port: 3306
+  username: root 
+  password: 4y67Y546#58m
