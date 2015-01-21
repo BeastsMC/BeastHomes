@@ -1,4 +1,4 @@
-package com.beastsmc.KablooieKablam.BeastHomes;
+package com.BeastsMC.KablooieKablam.BeastHomes;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;

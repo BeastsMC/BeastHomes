@@ -1,4 +1,4 @@
-package com.beastsmc.KablooieKablam.BeastHomes;
+package com.BeastsMC.KablooieKablam.BeastHomes;
 
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
@@ -48,6 +48,8 @@ public class mySQLHandler {
         }
 
     }
+
+
 
     private boolean openConnection() {
         int tries = 0;

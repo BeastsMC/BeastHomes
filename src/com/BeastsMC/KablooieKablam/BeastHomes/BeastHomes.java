@@ -1,4 +1,4 @@
-package com.beastsmc.KablooieKablam.BeastHomes;
+package com.BeastsMC.KablooieKablam.BeastHomes;
 
 
 import java.sql.SQLException;

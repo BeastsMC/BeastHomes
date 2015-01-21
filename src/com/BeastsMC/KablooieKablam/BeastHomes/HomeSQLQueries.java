@@ -1,4 +1,4 @@
-package com.beastsmc.KablooieKablam.BeastHomes;
+package com.BeastsMC.KablooieKablam.BeastHomes;
 
 /**
  * Created by Zane on 12/28/14.
