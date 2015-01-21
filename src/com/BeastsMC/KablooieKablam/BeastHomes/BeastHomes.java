@@ -1,19 +1,10 @@
 package com.BeastsMC.KablooieKablam.BeastHomes;
 
-
-import java.sql.SQLException;
-
-
-import org.bukkit.Bukkit;
-
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.beastsmc.KablooieKablam.BeastHomes.mySQLHandler;
-
-
 public class BeastHomes extends JavaPlugin {
-    public static mySQLHandler mysql;
+    public static MySQLHandler mysql;
 
     public void onEnable() {
         this.saveDefaultConfig();
@@ -21,7 +12,7 @@ public class BeastHomes extends JavaPlugin {
     }
 
     private void setupMySQL() {
-        this.mysql = new mySQLHandler(this,
+        this.mysql = new MySQLHandler(this,
                 getConfig().getString("mysql.host"),
                 (short) getConfig().getInt("mysql.port"),
                 getConfig().getString("mysql.database"),
